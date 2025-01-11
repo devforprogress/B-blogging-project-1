@@ -1,0 +1,98 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: #555;
+    }
+
+    .blog-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .blog-list li {
+      background-color: #fff;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .blog-list li h2 {
+      margin-top: 0;
+    }
+
+    .blog-list li p {
+      margin: 10px 0;
+    }
+
+    .blog-list li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .blog-list li a:hover {
+      text-decoration: underline;
+    }
+
+    .blog-details {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .blog-details h2 {
+      margin-top: 0;
+    }
+
+    .blog-details p {
+      margin: 10px 0;
+    }
+
+    .blog-details .actions {
+      margin-top: 20px;
+    }
+
+    .blog-details .actions button {
+      margin-right: 10px;
+    }
